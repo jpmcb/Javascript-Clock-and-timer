@@ -1,0 +1,60 @@
+@keyframes slowDown {
+  0% {
+    background-color: #051226;
+    margin-left: 0%;
+  }
+
+  50% {
+    background-color: white;
+    margin-left: 50%;
+  }
+
+  100% {
+    background-color: #051226;
+    margin-left: 100%;
+  }
+}
+
+#animate {
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+  background: #051226;
+  margin: 0 auto;
+
+}
+
+.animation {
+  animation: slowDown 10s infinite;
+  animation-direction: alternate;
+}
+
+body {
+  background: #051226;
+  font-family: 'Press Start 2P', cursive;
+  color: #8393ad;
+}
+
+button {
+  color: black;
+}
+
+#main-header {
+  margin-top: 20px;
+}
+
+.text-center {
+  margin-top: 10px;
+}
+
+#clock-row {
+  height: 100px;
+}
+
+#PomodoroTimer {
+  margin-top: 40px;
+}
+
+#credits {
+  margin-top: 60px;
+}
