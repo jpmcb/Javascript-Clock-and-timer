@@ -1,16 +1,16 @@
 @keyframes slowDown {
   0% {
-    background-color: #051226;
+    background-color: #f7f7f7;
     margin-left: 0%;
   }
 
   50% {
-    background-color: white;
+    background-color: black;
     margin-left: 50%;
   }
 
   100% {
-    background-color: #051226;
+    background-color: #f7f7f7;
     margin-left: 100%;
   }
 }
@@ -19,7 +19,7 @@
   height: 15px;
   width: 15px;
   border-radius: 20px;
-  background: #051226;
+  background: #f7f7f7;
   margin: 0 auto;
 
 }
@@ -30,8 +30,8 @@
 }
 
 body {
-  background: #051226;
-  font-family: 'Press Start 2P', cursive;
+  background: #f7f7f7;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #8393ad;
 }
 
