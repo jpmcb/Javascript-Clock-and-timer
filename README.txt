@@ -1,3 +1,6 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/jpmcb/pen/KNOBRV.
+A simple JavaScript clock and timer. Made with vanilla Javascript & Bootstrap.
+
+Message me if you have questions on my code!
+Thanks!
 
  
