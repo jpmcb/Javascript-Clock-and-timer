@@ -11,7 +11,6 @@ var timer = {
     timer.defaultMinutes = timer.defaultMinutes + 1;
     document.getElementById("timerDisplay").innerHTML =
       timer.defaultMinutes + " : " + timer.defaultSeconds + timer.defaultTenthSeconds;
-
   },
 
   sub : function () {
