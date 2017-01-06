@@ -1,3 +1,5 @@
+// ---- JS clock and timer, by jpmcb, message me with questions! --- //
+
 // define the timer object with functions to be called
 var timer = {
   defaultMinutes : 25,
@@ -74,7 +76,8 @@ document.getElementById("pause").onclick = function () {
     timer.pause = true;
     document.getElementById("pause").innerHTML = "Pause";
     if (document.getElementById("animate").className != "animation") {
-      document.getElementById("animate").className += "animation";}
+      document.getElementById("animate").className += "animation";
+    }
     document.getElementById("animate").style.animationPlayState = "running";
   }
 }
@@ -83,5 +86,4 @@ window.onload = function () {
   document.getElementById("timerDisplay").innerHTML =
     timer.defaultMinutes + " : " + timer.defaultSeconds + timer.defaultTenthSeconds;
   window.setInterval(setClock, 1000);
-
 }
