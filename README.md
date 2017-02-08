@@ -2,7 +2,6 @@
 
 *A simple JavaScript clock and timer. Made with vanilla Javascript & Bootstrap.*
 
-Message me if you have questions on the code!
-Thanks!
+User can set time and animation will play until timer runs out. A working version of the app can be [found here](https://jpmcb.github.io/Javascript-Clock-and-timer/)
 
  
